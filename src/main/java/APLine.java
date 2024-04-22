@@ -9,7 +9,7 @@ private int c;
    b = bx;
    c = cx;
   }
-  public double GetSlope()
+  public double getSlope()
   {
     return -(double)a / b;
   }
