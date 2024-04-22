@@ -11,7 +11,7 @@ private int c;
   }
   public double GetSlope()
   {
-    return (double)-a/b;
+    return -(double)a/b;
   }
   public boolean isOnLine(int x, int y)
   {
