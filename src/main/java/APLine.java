@@ -13,7 +13,7 @@ private int c;
   {
     return (double)-a/b;
   }
-  public boolean isOnLine(x,y)
+  public boolean isOnLine(int x, int y)
   {
     
     if (a*x + b*x + c == 0)
