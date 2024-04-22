@@ -16,10 +16,8 @@ private int c;
   public boolean isOnLine(int x, int y)
   {
     
-    if (a*x + b*x + c == 0)
-      return true;
-        else 
-        return false;
+    return a*x + b*x + c == 0
+      
   
   
 }
